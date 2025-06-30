@@ -222,6 +222,7 @@ svg * {
   border-radius: 4px;
   border: none;
   margin: 48px auto 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .solution-button:hover,
@@ -293,13 +294,15 @@ svg * {
 }
 .features-border {
   display: flex;
-  border: solid;
-  border-radius: 5px;
-  width: 264px;
-  height: 112px;
-  align-content: space-around;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+  height: 112px;
+  width: 264px;
 }
 
 /* features end */
