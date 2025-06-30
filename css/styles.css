@@ -279,10 +279,6 @@ svg * {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.features-icons {
-  width: 64px;
-  height: 64px;
-}
 
 .features-border .features-icons {
   position: relative;
