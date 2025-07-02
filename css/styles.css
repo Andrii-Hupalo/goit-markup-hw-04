@@ -571,5 +571,8 @@ svg * {
   gap: 16px;
   justify-content: center;
 }
-
+.footer-link:hover,
+.footer-link:focus {
+  background-color: #31d0aa;
+}
 /* footer end*/
