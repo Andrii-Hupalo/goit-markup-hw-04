@@ -519,15 +519,16 @@ svg * {
 
 /* footer start*/
 
-.container .container-page-footer {
-  padding: 100px 0;
-  margin-right: 120px;
+/* .container .container-page-footer {
+  padding: 100px 0; */
+  
 }
 .content-page-footer {
   display: flex;
   align-items: baseline;
   max-width: 1158px;
   padding: 0 15px;
+  margin-right: 120px;
 }
 .page-footer {
   font-family: "Raleway", sans-serif;
