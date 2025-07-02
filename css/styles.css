@@ -519,7 +519,7 @@ svg * {
 
 /* footer start*/
 
-.container .container-page-footer {
+.container-page-footer {
   padding: 100px 0;
   margin-right: 120px;
 }
@@ -560,5 +560,17 @@ svg * {
 .footer-container-social-text {
   display: flex;
   justify-content: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.team-social-item {
+  display: flex;
+  gap: 16px;
+}
+.team-social-link {
+  width: 100%;
 }
 /* footer end*/
