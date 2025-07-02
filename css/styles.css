@@ -412,10 +412,8 @@ svg * {
 .team-social-link:focus {
   background-color: #404bbf;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-social-item {
-}
+
 .team-social-icon {
   fill: #f4f4fd;
 }
