@@ -392,9 +392,9 @@ svg * {
 }
 
 /* cocials */
-.team-social-list {
+.team-social-item {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   justify-content: center;
 }
 .team-social-link {
@@ -524,6 +524,7 @@ svg * {
 .content-page-footer {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
 }
 .page-footer {
   font-family: "Raleway", sans-serif;
@@ -545,12 +546,14 @@ svg * {
   color: #f4f4fd;
 }
 .footer-text {
+  font-weight: 500;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: #ffffff;
   max-width: 264px;
+  margin-bottom: 16px;
 }
 .footer-container-social-text {
   display: flex;
