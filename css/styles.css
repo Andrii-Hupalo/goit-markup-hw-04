@@ -362,6 +362,7 @@ svg * {
   color: #434455;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-list ul {
@@ -517,13 +518,11 @@ svg * {
 
 /* footer start*/
 
-.container .container-page-footer {
-  padding: 100px 0;
-  margin-right: 120px;
-}
 .container-page-footer {
   margin-right: 120px;
   margin-left: 0;
+  padding: 100px 0;
+  margin-right: 120px;
 }
 .content-page-footer {
   display: flex;
@@ -562,8 +561,6 @@ svg * {
   margin-bottom: 16px;
 }
 .footer-container-social-text {
-  display: flex;
-  justify-content: center;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
